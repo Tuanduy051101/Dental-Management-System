@@ -1,0 +1,22 @@
+Step 1 : npm init vue@3 // create vue application
+    - adjust content src/component/App.vue
+    - adjust vite.config.js // port configuration for app
+    - npm i
+    - npm run dev
+
+Step 2 : Create a service class that gets data from the server
+    - npm i axios
+    - create src/services/api.service.js
+    - create src/services/institution.service.js
+
+Step 4: Install library (bootstrap, font awesome)
+// Project structure
+
+- src: This directory contains the core of your Vue app.
+    + main.js //this is the entry point to your application. 
+    Currently, this file initializes your Vue application and signifies which HTML element in the index.html file your app should be attached to. 
+    This file is often where you register global components or additional Vue libraries.
+    + App.vue //this is the top-level component in your Vue app. 
+    See below for more explanation of Vue components.
+    + components// this directory is where you keep your components. Currently, it just has one example component.
+    + assets: this directory is for storing static assets like CSS and images.
